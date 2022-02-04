@@ -1,0 +1,96 @@
+/* Box Model Hack */
+* {
+ box-sizing: border-box;
+ background: coral;
+}
+h1{
+    float: left;
+    margin-top: 0%;
+    margin-left: 44%;
+    margin-bottom: 0%;
+    text-align: center;
+}
+
+.navleft ol{
+    height: 100px;
+    line-height: 20px;
+    width: 20px;
+    float: left;
+    margin-top: 20%;
+    padding-left: 0%;
+    clear: both;
+    
+    
+}
+.navleft ol li{
+    display: inline-block;
+    border-bottom: 2px solid gray;
+    margin-bottom: 18px;
+}
+
+ul{
+    float: left;
+    text-align: center;
+    list-style: none;
+    margin-left: 38%;
+    
+}
+
+.centerpic{
+    height: 300px;
+    width: 400px;
+    margin-left: 40%;
+    border: 2px solid black;
+}
+
+.centerleftsec>p{
+    color: black;
+    text-transform: capitalize;
+    line-height: 40px;
+    float: left;
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 20%;
+    border: 2px solid black;
+    padding: 0 3px 0 3px;
+    background: darkgray;
+
+}
+
+.centermiddlesec>p{
+    color: black;
+    text-transform: uppercase;
+    line-height: 40px;
+    float: left;
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 16%;
+    background: darkgray;
+    border: 2px solid black;
+    padding: 0 3px 0 3px;
+    
+}
+
+.centerrightsec>p{
+    float: left;
+    color: black;
+    line-height: 30px;
+    width: 200px;
+    margin-left: 16%;
+    margin-top: 100px;
+    background: darkgray;
+    border: 2px dotted black;
+    text-transform: uppercase;
+    padding: 0 3px 0 3px;
+}
+.topleft{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    float: left;
+    margin-left: 0%;
+}
+.topright{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    float: right;
+}
